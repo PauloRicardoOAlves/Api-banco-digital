@@ -2,6 +2,6 @@ const {Router} = require('express')
 const { teste } = require('../controllers/client')
 const router = Router()
 
-router.get('/', teste)
+router.post('/', teste)
 
 module.exports = router
